@@ -19,7 +19,7 @@ public class SkipListController {
 			
 		}
 		
-		System.out.println("======Inserting 500 elements=======");
+		System.out.println("======Inserting elements=======");
 		
 		long startTime = System.nanoTime();
 		for(int i =0; i<arr.length; i++)
@@ -27,13 +27,13 @@ public class SkipListController {
 		
 		long endTime = System.nanoTime();
 		System.out.println("Time taken for inserting elements = " + (endTime - startTime));
-		System.out.println("======500 elements inserted =======");
+		System.out.println("======Elements inserted =======");
 		
 		
 		obj.printList();
 		System.out.println();
 		
-		System.out.println("======Searching 500 elements=======");
+		System.out.println("======Searching elements=======");
 		startTime = System.nanoTime();
 		for(int i =0; i<arr.length; i++) {
 			 boolean result = obj.search(arr[i]);
