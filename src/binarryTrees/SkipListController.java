@@ -13,9 +13,9 @@ public class SkipListController {
 
 		for (int k = 0; k < noOfElements; k++) {
 			
-//			Random rand = new Random();
-//			arr[k] = rand.nextInt(2000);
-			arr[k] = k;
+			Random rand = new Random();
+			arr[k] = rand.nextInt(2000);
+//			arr[k] = k;
 			
 		}
 		

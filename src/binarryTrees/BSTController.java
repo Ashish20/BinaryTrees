@@ -10,14 +10,14 @@ public class BSTController {
 
 		TreeNode root = null;
 
-		int noOfElements = 1000;
+		int noOfElements = 10;
 		int arr[] = new int[noOfElements];
 
 		for (int k = 0; k < noOfElements; k++) {
 			
-//			Random rand = new Random();
-//			arr[k] = rand.nextInt(2000);
-			arr[k] = k;
+			Random rand = new Random();
+			arr[k] = rand.nextInt(2000);
+//			arr[k] = k;
 			
 		}
 		
@@ -51,8 +51,9 @@ public class BSTController {
 		
 		System.out.println("======Deleting Half elements=======");
 		startTime = System.nanoTime();
-		for(int i =0; i<arr.length; i+=2)
+		for(int i =0; i<noOfElements; i+=2) {
 			root = obj.delete(root, arr[i]);
+		}
 		
 		endTime = System.nanoTime();
 		
