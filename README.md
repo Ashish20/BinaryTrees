@@ -1,9 +1,9 @@
-# BinaryTrees
-I have implemented the following Data Strucures - 
-a.  BST
-b.  AVL Trees
-c.  Treaps
-d.  SkipList
+# Binary Trees
+I have implemented the following Data Strucures - <br></br>
+a.  BST <br></br>
+b.  AVL Trees <br></br>
+c.  Treaps <br></br>
+d.  SkipList <br></br>
 
 Each DS has its own node structure and a controller class which has a main function.
-To see the execution of any DS, run its corresponding controoler class.
+To see the execution of any DS, run its corresponding controller class.
